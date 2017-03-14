@@ -56,18 +56,18 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_runtime_dependency(%q<devise>, [">= 1.0.0"])
-      s.add_runtime_dependency(%q<oauth2>, [">= 0"])
+      s.add_runtime_dependency(%q<oauth2>, [">= 1.1.0"])
       s.add_runtime_dependency(%q<json>, [">= 0"])
     else
       s.add_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_dependency(%q<devise>, [">= 1.0.0"])
-      s.add_dependency(%q<oauth2>, [">= 0"])
+      s.add_dependency(%q<oauth2>, [">= 1.1.0"])
       s.add_dependency(%q<json>, [">= 0"])
     end
   else
     s.add_dependency(%q<rspec>, [">= 1.2.9"])
     s.add_dependency(%q<devise>, [">= 1.0.0"])
-    s.add_dependency(%q<oauth2>, [">= 0"])
+    s.add_dependency(%q<oauth2>, [">= 1.1.0"])
     s.add_dependency(%q<json>, [">= 0"])
   end
 end
